@@ -1,0 +1,45 @@
+body {
+    background-color: #282c34;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-no-style,
+.link-no-style:hover,
+.link-no-style:active {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+.container-page {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+}
+
+.container-content-page {
+
+    min-height: 85vh;
+    margin-top: 8vh;
+    padding: 1.5rem;
+
+    background-color: #ffffff;
+}
+
+.container-main-top {
+    padding: 1%;
+    margin-bottom: 2em;
+
+    background-color: #ffffff;
+}
+
+.container-main-top h3 {
+    margin-bottom: 1em;
+}
+
+
