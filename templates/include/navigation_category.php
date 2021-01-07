@@ -1,4 +1,8 @@
-<?php $fetch_result = $mysqli->query("SELECT * FROM `categories`;"); ?>
+<?php
+    $fetch_result = $mysqli->query("SELECT * FROM `categories`;");
+    $fetch_result->data_seek(0);
+
+?>
 
 <h1 class="my-4">Категории</h1>
 <div class="list-group list-category">

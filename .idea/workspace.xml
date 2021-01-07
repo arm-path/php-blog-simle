@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60e253ee-6952-47df-8a0d-784017b74ae1" name="Default Changelist" comment="" />
+    <list default="true" id="60e253ee-6952-47df-8a0d-784017b74ae1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/settings/сonnect_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/parts_of_pages/content_index_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/content_index_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/parts_of_pages/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/parts_of_pages/navigation_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/navigation_category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/parts_of_pages/navigation_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/navigation_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/settings/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/сonnect_db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/no-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/articles/no-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/sql-requests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1meFGiIPcAzIM1HTR8RcztCNbnn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,10 +44,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/library" />
+      <recent name="$PROJECT_DIR$/modules/library/slugify" />
+      <recent name="$PROJECT_DIR$/modules/settings" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
@@ -43,7 +70,9 @@
       <workItem from="1609846059120" duration="584000" />
       <workItem from="1609846673352" duration="5086000" />
       <workItem from="1609853148106" duration="9395000" />
-      <workItem from="1609867146022" duration="6007000" />
+      <workItem from="1609867146022" duration="6180000" />
+      <workItem from="1610008345588" duration="5207000" />
+      <workItem from="1610015213822" duration="27018000" />
     </task>
     <servers />
   </component>

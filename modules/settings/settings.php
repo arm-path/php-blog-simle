@@ -1,11 +1,12 @@
 <?php
 $conf = [
     'title' => 'Простой блог на PHP',
-    'conf-db' => [
+    'settings-db' => [
         'hostname' => 'localhost',
         'database' => 'blog-php',
         'username' => 'root',
         'password' => ''
     ]
 ]
+
 ?>

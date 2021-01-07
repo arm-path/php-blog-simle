@@ -10,10 +10,7 @@
                 <a class="nav-link" href="#">Статьии</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Конфигурация сайта</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Об авторе</a>
+                <a class="nav-link" href="configuration.php">Конфигурация сайта</a>
             </li>
         </ul>
     </div>

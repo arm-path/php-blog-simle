@@ -1,6 +1,6 @@
 <!doctype html>
 
-<?php require_once('include/сonnect_db.php'); ?>
+<?php require_once('modules/settings/сonnect_db.php'); ?>
 
 <html lang="en">
 <head>

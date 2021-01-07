@@ -11,10 +11,10 @@ $fetch_result = $mysqli->query($query)
 <div class="container-main-top">
     <div class="row row-cols-md-4 justify-content-center">
         <?php while ($article = $fetch_result->fetch_assoc()) { ?>
-            <a href="?article=<?php echo $article['slugindex.php'] ?>" class="card m-3">
+            <a href="?article=<?php echo $article['slug'] ?>" class="card m-3">
                 <div class="row">
                     <img
-                            src="media/<?php if ($article['images'] !== null) echo $article['images']; else echo 'no-image.jpg' ?>"
+                            src="media/articles/<?php if ($article['images'] !== null) echo $article['images']; else echo 'no-image.jpg' ?>"
                             class="img-fluid p-0"
                             alt="..."
                     >
@@ -46,7 +46,7 @@ $fetch_result = $mysqli->query($query)
             <div class="col">
                 <div class="card">
                     <img
-                            src="media/<?php if ($article['images'] !== null) echo $article['images']; else echo 'no-image.jpg' ?>"
+                            src="media/articles/<?php if ($article['images'] !== null) echo $article['images']; else echo 'no-image.jpg' ?>"
                             class="card-img-top img-fluid"
                             alt="..."
                     >
