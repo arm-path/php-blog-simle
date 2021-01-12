@@ -1,3 +1,3 @@
-<scrip src="static/bootstrap.min.js"></scrip>
-<scrip src="static/index.js"></scrip>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/index.js"></script>
 </html>
