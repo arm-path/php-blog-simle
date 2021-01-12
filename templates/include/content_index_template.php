@@ -14,7 +14,7 @@ $fetch_result = $mysqli->query($query)
             <a href="?article=<?php echo $article['slug'] ?>" class="card m-3">
                 <div class="row">
                     <img
-                            src="media/articles/<?php if ($article['images'] !== null) echo $article['images']; else echo 'no-image.jpg' ?>"
+                            src="media/articles/<?php if ($article['images']) echo $article['images']; else echo 'no-image.jpg' ?>"
                             class="img-fluid p-0"
                             alt="..."
                     >
@@ -46,12 +46,17 @@ $fetch_result = $mysqli->query($query)
             <div class="col">
                 <div class="card">
                     <img
-                            src="media/articles/<?php if ($article['images'] !== null) echo $article['images']; else echo 'no-image.jpg' ?>"
+                            src="media/articles/<?php if ($article['images']) echo $article['images']; else echo 'no-image.jpg' ?>"
                             class="card-img-top img-fluid"
                             alt="..."
                     >
                     <div class="card-body">
-                        <h5 class="card-title"><?php echo $article['title'] ?></h5>
+                        <h5 class="card-title">
+                            <a href="?article=<?php echo $article['slug'] ?>"
+                               class="text-decoration-none link-article">
+                                <?php echo $article['title'] ?>
+                            </a>
+                        </h5>
                         <p class="card-text"><?php echo substr($article['content'], 0, 125) ?></p>
                     </div>
                     <div class="card-footer">

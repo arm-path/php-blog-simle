@@ -82,7 +82,6 @@ if (isset($_POST['change_article'])) {
 
                     if ($images == false && $content == false) {
                         if (!$mysqli_stmt_obj->bind_param('ssii', $title, $slug, $category, $article_id)) {
-                            echo '111';
                             $errno_db = true; // Не удалось привязать параметры
 
                         }
