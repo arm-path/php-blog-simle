@@ -14,6 +14,13 @@ a {
 
 }
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
 
 .container-page {
     width: 75%;

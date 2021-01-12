@@ -16,3 +16,4 @@
         </div>
     </div>
 </body>
+<?php require_once('templates/include/footer.php'); ?>

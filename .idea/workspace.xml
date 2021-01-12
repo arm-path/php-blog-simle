@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e253ee-6952-47df-8a0d-784017b74ae1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/settings/сonnect_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/parts_of_pages/content_index_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/content_index_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/parts_of_pages/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/parts_of_pages/navigation_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/navigation_category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/parts_of_pages/navigation_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/navigation_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/settings/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/сonnect_db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/no-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/articles/no-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/sql-requests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/request/categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/include/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/head.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +17,23 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1meFGiIPcAzIM1HTR8RcztCNbnn" />
   <component name="ProjectLevelVcsManager">
@@ -72,7 +78,13 @@
       <workItem from="1609853148106" duration="9395000" />
       <workItem from="1609867146022" duration="6180000" />
       <workItem from="1610008345588" duration="5207000" />
-      <workItem from="1610015213822" duration="27018000" />
+      <workItem from="1610015213822" duration="27438000" />
+      <workItem from="1610174491307" duration="1398000" />
+      <workItem from="1610175920604" duration="414000" />
+      <workItem from="1610349592876" duration="10238000" />
+      <workItem from="1610432834919" duration="17516000" />
+      <workItem from="1610452091011" duration="575000" />
+      <workItem from="1610452778583" duration="5912000" />
     </task>
     <servers />
   </component>

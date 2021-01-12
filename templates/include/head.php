@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/index.css"
 
+    <link rel="stylesheet" href="static/css/chosen.css">
+
+
 </head>
 
 
