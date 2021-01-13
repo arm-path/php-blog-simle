@@ -1,0 +1,77 @@
+-- Версия PHP: 8.0.0
+
+--
+-- База данных: `blog-php`
+--
+
+--
+-- Структура таблицы `articles`
+--
+
+CREATE TABLE `articles` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(36) NOT NULL,
+  `slug` varchar(36) NOT NULL,
+  `category_id` int(10) UNSIGNED DEFAULT NULL,
+  `images` varchar(125) DEFAULT NULL,
+  `content` text DEFAULT NULL,
+  `date_of_publication` datetime NOT NULL DEFAULT curdate(),
+  `views` int(10) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Структура таблицы `categories`
+--
+
+CREATE TABLE `categories` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(36) NOT NULL,
+  `slug` varchar(36) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Индексы сохранённых таблиц
+--
+
+--
+-- Индексы таблицы `articles`
+--
+
+ALTER TABLE `articles`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `category_id` (`category_id`);
+
+--
+-- Индексы таблицы `categories`
+--
+
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `slug` (`slug`);
+
+--
+-- AUTO_INCREMENT для сохранённых таблиц
+--
+
+--
+-- AUTO_INCREMENT для таблицы `articles`
+--
+ALTER TABLE `articles`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+
+--
+-- AUTO_INCREMENT для таблицы `categories`
+--
+ALTER TABLE `categories`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
+-- Ограничения внешнего ключа сохраненных таблиц
+--
+
+--
+-- Ограничения внешнего ключа таблицы `articles`
+--
+ALTER TABLE `articles`
+  ADD CONSTRAINT `articles_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE SET NULL;
+COMMIT;
