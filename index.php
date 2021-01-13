@@ -24,9 +24,11 @@ require_once('modules/request/categories.php');
                                 $no_get = false;
                             }
                         }
-                        if ($no_get){
+                        if ($no_get) {
                             require('templates/include/content_index_template.php');
                         }
+                    } else if (isset($_GET['article'])) {
+                        require('templates/include/content_get_article.php');
                     } else {
                         require('templates/include/content_index_template.php');
                     } ?>

@@ -1,6 +1,6 @@
 <?php
-    require_once('templates/include/head.php');
-    require_once('modules/request/categories.php');
+require_once('templates/include/head.php');
+require_once('modules/request/categories.php');
 ?>
 
 <body>
@@ -24,9 +24,11 @@
                             $no_get = false;
                         }
                     }
-                    if ($no_get){
+                    if ($no_get) {
                         require('templates/include/content_articles_template.php');
                     }
+                } else if (isset($_GET['article'])) {
+                    require('templates/include/content_get_article.php');
                 } else {
                     require('templates/include/content_articles_template.php');
                 } ?>

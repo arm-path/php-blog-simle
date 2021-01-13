@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/articles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/include/content_articles_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/content_articles_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/include/navigation_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/navigation_category.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,7 @@
       <workItem from="1610432834919" duration="17516000" />
       <workItem from="1610452091011" duration="575000" />
       <workItem from="1610452778583" duration="22357000" />
-      <workItem from="1610519954706" duration="2027000" />
+      <workItem from="1610519954706" duration="6132000" />
     </task>
     <servers />
   </component>
