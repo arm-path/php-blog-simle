@@ -15,6 +15,6 @@ $category_show = $fetch_result->num_rows;
 </div>
 <?php } else { ?>
     <div class="alert alert-warning" role="alert">
-        Добавить <a href="/blog-php/configuration.php?add=article">категории...</a>
+        Добавить <a href="/blog-php/configuration.php?add=category">категории...</a>
     </div>
 <?php } ?>

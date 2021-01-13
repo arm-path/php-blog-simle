@@ -1,6 +1,6 @@
 <?php
 $page_count = 9; // Количество статей на странице.
-$query = "SELECT COUNT(*) as count FROM `articles`";
+$query = "SELECT COUNT(*) as count FROM `articles` WHERE `category_id`= $category_id";
 $fetch_result_page = $mysqli->query($query);
 $count_article = $fetch_result_page->fetch_assoc();
 $count_article = $count_article['count']; // Количество статей.
@@ -19,15 +19,17 @@ if (isset($_GET['page'])) {
 $query = "
           SELECT `title`, `slug`, `date_of_publication`, `images`, `content`, `date_of_publication` 
           FROM `articles` 
+          WHERE `category_id` = $category_id
           ORDER BY `id` LIMIT $start, $page_count;
           ";
 $fetch_result = $mysqli->query($query);
 $article_show = $fetch_result->num_rows;
 ?>
 
-<?php if ($article_show) { ?>
+<?php if ($article_show && isset($_GET['category'])) { ?>
     <div class="mb-5">
         <h1 style="text-align: center">Список статей</h1>
+        <h3 style="text-align: center">"<?= $category_title?>"</h3style></h3>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
             <?php while ($article = $fetch_result->fetch_assoc()) { ?>
                 <div class="col">
